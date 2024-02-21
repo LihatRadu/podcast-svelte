@@ -16,6 +16,7 @@
     </div>
   <div class="navbar-center hidden lg:flex text-white justify-evenly">
     <ul class="menu menu-horizontal px-1">
+      <li class="text-xl hover:text-red-700"><a href="/">Home</a></li>
       <li class="text-xl hover:text-red-700"><a href="/episodes">Episodes</a></li>
       <li class="hover:text-red-700 text-xl">
           <a href="/about">About</a>
