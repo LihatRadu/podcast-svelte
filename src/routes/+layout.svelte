@@ -1,6 +1,15 @@
 <script>
   import '../app.css';
+  
 </script>
+
+<style>
+  .box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  }
+</style>
 
 <html data-theme="dim"></html>
  <header>
@@ -9,6 +18,7 @@
     </div>
   </header>
   <nav>
+  
     <div class="navbar bg-base-100">
       <div class="navbar-start">
         <div class="dropdown">
@@ -28,6 +38,7 @@
     <a class="btn bg-red-700 text-white ">Subscribe</a>
   </div>
 </div>
+
   </nav>
   <body>
     <slot />
