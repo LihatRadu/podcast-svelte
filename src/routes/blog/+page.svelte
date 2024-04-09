@@ -10,7 +10,7 @@
       <div class="news-post bg-gray-700 rounded-lg shadow-md overflow-hidden">
         <div class="post p-6">
           <h2 class="post-title text-xl font-semibold mb-2">
-            <a href={""} class="hover:text-red-700">{post.title}</a>
+            <a href={`/blog/${post.id}`} class="hover:text-red-700">{post.title}</a>
           </h2>
           <p class="post-meta text-gray-500 text-sm mb-4">{post.date}</p>
           <img src={post.image} alt={post.alt} class="post-image w-full h-48 object-cover mb-4" />
